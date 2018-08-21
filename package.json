@@ -1,0 +1,11 @@
+{
+  "name": "krokowski0x.com",
+  "version": "0.0.1",
+  "description": "My portfolio website and playground for new tools/technologies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Rafal Krokowski",
+  "license": "MIT"
+}
