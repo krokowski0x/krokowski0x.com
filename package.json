@@ -4,8 +4,39 @@
   "description": "My portfolio website and playground for new tools/technologies.",
   "main": "index.js",
   "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krokowski0x/krokowski0x.com.git"
+  },
   "author": "Rafal Krokowski",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krokowski0x/krokowski0x.com/issues"
+  },
+  "homepage": "https://github.com/krokowski0x/krokowski0x.com#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.2.5",
+    "eslint": "^5.0.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.10.0",
+    "jest": "^23.2.0",
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^0.2.0",
+    "express": "^4.16.3",
+    "next": "^6.1.1",
+    "next-routes": "^1.4.2",
+    "node-sass": "^4.9.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "semantic-ui-react": "^0.82.2"
+  }
 }
