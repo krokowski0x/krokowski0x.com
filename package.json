@@ -37,6 +37,7 @@
     "node-sass": "^4.9.3",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
+    "react-particles-js": "^2.3.0",
     "semantic-ui-react": "^0.82.2"
   }
 }
