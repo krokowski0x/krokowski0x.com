@@ -1,10 +1,18 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { injectGlobal } from "styled-components";
+
+injectGlobal`
+  body {
+    color: #fff;
+    background-color: #181717;
+  }
+`;
 
 const Cointainer = styled.div`
   margin: 5%;
-  width: 80vw;
+  text-align: center;
 `;
-export default () => {
-  return <Cointainer />;
+
+export default props => {
+  return <Cointainer>{props.children}</Cointainer>;
 };
