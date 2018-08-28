@@ -10,7 +10,6 @@ injectGlobal`
 
 const Cointainer = styled.div`
   margin: 5%;
-  text-align: center;
 `;
 
 export default props => {

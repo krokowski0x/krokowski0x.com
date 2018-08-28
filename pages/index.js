@@ -3,6 +3,11 @@ import Typing, { Cursor } from "react-typing-animation";
 import Layout from "../components/Layout";
 import GitHubLink from "../components/GitHubLink";
 
+import Summary from "../components/resume/Summary";
+import Projects from "../components/resume/Projects";
+import Experience from "../components/resume/Experience";
+import Education from "../components/resume/Education";
+
 export default class App extends Component {
   constructor(props) {
     super(props);
@@ -18,6 +23,10 @@ export default class App extends Component {
         </Typing>
         <h2>See mine here.</h2>
         <GitHubLink size={200} project="" />
+        <Summary />
+        <Projects />
+        <Experience />
+        <Education />
       </Layout>
     );
   }
