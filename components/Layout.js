@@ -12,14 +12,16 @@ export default props => {
         />
       </Head>
       {props.children}
-      <footer />
+      <footer>
+        <span>See all of my work at: </span>
+        <GitHubLink size={50} project="" style={{ display: "block" }} />
+      </footer>
       <style jsx global>{`
         body {
           font-family: "Roboto", sans-serif;
-          color: #fff;
-          background-color: #181717;
         }
       `}</style>
     </Container>
   );
 };
+//background-color: #181717;
