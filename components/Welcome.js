@@ -11,10 +11,14 @@ export default props => {
         <h1>I'm Rafał Krókowski</h1>
         <Typing.Delay ms={1000} />
         <Typing.Backspace count={100} />
-        <h1>Let's see what I can offer Your company!</h1>
+        <h1>JavaScript Developer</h1>
+        <Typing.Backspace count={100} />
+        <h1>Student</h1>
+        <Typing.Backspace count={100} />
+        <h1>And more...</h1>
         <Typing.Reset count={1} delay={500} />
       </Typing>
-      <GitHubLink size={200} project="" style={{ display: "block" }} />
+      <h1>Let's see what I can offer Your company!</h1>
       <Container textAlign="center">
         <Button inverted circular size="huge" color="blue" icon="angle down" />
       </Container>
