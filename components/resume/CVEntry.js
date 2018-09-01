@@ -1,4 +1,4 @@
-export default props => {
+const CVEntry = props => {
   return (
     <div>
       <h3>{props.name}</h3>
@@ -13,3 +13,5 @@ export default props => {
     </div>
   );
 };
+
+export default CVEntry;

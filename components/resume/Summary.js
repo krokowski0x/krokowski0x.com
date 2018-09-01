@@ -1,4 +1,4 @@
-export default props => {
+const Summary = props => {
   return (
     <div>
       <h2>Summary</h2>
@@ -15,3 +15,5 @@ export default props => {
     </div>
   );
 };
+
+export default Summary;

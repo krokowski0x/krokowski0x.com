@@ -2,10 +2,10 @@ import Typing, { Cursor } from "react-typing-animation";
 import { Button, Icon, Container } from "semantic-ui-react";
 import GitHubLink from "../components/GitHubLink";
 
-export default props => {
+const Welcome = props => {
   return (
     <div style={{ height: "100vh", textAlign: "center" }}>
-      {/* <Typing speed={30}>
+      <Typing speed={30}>
         <h1>What up!</h1>
         <Typing.Delay ms={1000} />
         <h1>I'm Rafał Krókowski</h1>
@@ -25,3 +25,5 @@ export default props => {
     </div>
   );
 };
+
+export default Welcome;

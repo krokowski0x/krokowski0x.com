@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "semantic-ui-react";
 import Head from "next/head";
 
-export default props => {
+const Layout = props => {
   return (
     <Container>
       <Head>
@@ -24,4 +24,6 @@ export default props => {
     </Container>
   );
 };
+
+export default Layout;
 //background-color: #181717;

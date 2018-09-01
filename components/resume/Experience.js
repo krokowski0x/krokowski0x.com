@@ -1,6 +1,6 @@
 import CVEntry from "./CVEntry";
 
-export default props => {
+const Experience = props => {
   return (
     <div>
       <h2>Work Experience</h2>
@@ -30,3 +30,5 @@ export default props => {
     </div>
   );
 };
+
+export default Experience;
