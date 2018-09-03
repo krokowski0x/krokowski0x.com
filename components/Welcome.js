@@ -2,7 +2,7 @@ import Typing, { Cursor } from "react-typing-animation";
 import { Button, Icon, Container } from "semantic-ui-react";
 import GitHubLink from "../components/GitHubLink";
 
-const Welcome = props => {
+export default props => {
   return (
     <div style={{ height: "100vh", textAlign: "center" }}>
       <Typing speed={30}>
@@ -25,5 +25,3 @@ const Welcome = props => {
     </div>
   );
 };
-
-export default Welcome;
