@@ -12,10 +12,24 @@ const Layout = props => {
         />
       </Head>
       {props.children}
-      {/* <footer>
+      <footer>
         <span>See all of my work at: </span>
         <GitHubLink size={50} project="" style={{ display: "block" }} />
-      </footer> */}
+      </footer>
+      <style jsx>{`
+        footer {
+          background-color: rgba(32, 35, 47, 0.2);
+          position: fixed;
+          bottom: 0;
+          right: 20;
+          width: 100%;
+          z-index: 99999;
+        }
+        span,
+        a {
+          color: #fff;
+        }
+      `}</style>
       <style jsx global>{`
         html,
         body,
