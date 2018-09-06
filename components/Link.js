@@ -1,4 +1,4 @@
-const GitHubLink = props => {
+const Link = props => {
   return (
     <a
       target="_blank"
@@ -15,4 +15,4 @@ const GitHubLink = props => {
   );
 };
 
-export default GitHubLink;
+export default Link;
