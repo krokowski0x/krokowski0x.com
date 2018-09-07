@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import GitHubLink from "./GitHubLink";
 
 const Layout = props => {
   return (
@@ -11,11 +10,7 @@ const Layout = props => {
           rel="stylesheet"
         />
       </Head>
-      {props.children}
-      <footer>
-        <span>See all of my work at: </span>
-        <GitHubLink size={50} project="" style={{ display: "block" }} />
-      </footer>
+      <div style={{ height: "100%", padding: "0 5%" }}>{props.children}</div>
     </div>
   );
 };
