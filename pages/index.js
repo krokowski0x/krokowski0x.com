@@ -25,10 +25,21 @@ export default class App extends Component {
     return (
       <Layout>
         <h1>Rafał Krókowski</h1>
-        <h3>Some clever description.</h3>
+        <h2>
+          I do code sometimes. 👨‍💻 <br />
+          Otherwise I'm just hopelessly scrolling through Stack Overflow 🤨
+        </h2>
         {this.state.links.map(link => (
-          <Link size={50} icon={link} />
+          <Link icon={link} />
         ))}
+        <style jsx>{`
+          h1 {
+            font-size: 8rem;
+          }
+          h2 {
+            font-size: 3rem;
+          }
+        `}</style>
       </Layout>
     );
   }
