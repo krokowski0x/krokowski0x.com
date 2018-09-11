@@ -1,6 +1,5 @@
-import Icons from "simple-icons";
 import Links from "../utils/Links";
-import { GitHub } from "../utils/Icons";
+import Icons from "./Icons";
 
 const Link = props => {
   return (
@@ -12,7 +11,7 @@ const Link = props => {
         height="50px"
         viewBox="0 0 24 24"
       >
-        <GitHub />
+        <path d={Icons[props.icon]} />
       </svg>
     </a>
   );
