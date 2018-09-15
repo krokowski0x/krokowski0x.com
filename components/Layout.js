@@ -15,16 +15,19 @@ const Layout = props => {
         body {
           font-family: "Roboto", sans-serif;
           color: #fff;
-          background-color: #24292e;
+          height: 100vh;
+          background: linear-gradient(45deg, #00d664, cyan);
         }
         h1 {
           font-size: 8rem;
+          margin-bottom: 0;
         }
         h2 {
           font-size: 3rem;
+          line-height: 4rem;
         }
         a {
-          margin: 2rem;
+          margin: 0 2rem 5rem 0;
         }
       `}</style>
     </div>
