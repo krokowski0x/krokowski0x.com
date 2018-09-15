@@ -17,6 +17,15 @@ const Layout = props => {
           color: #fff;
           background-color: #24292e;
         }
+        h1 {
+          font-size: 8rem;
+        }
+        h2 {
+          font-size: 3rem;
+        }
+        a {
+          margin: 2rem;
+        }
       `}</style>
     </div>
   );

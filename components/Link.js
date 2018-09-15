@@ -5,10 +5,10 @@ const Link = props => {
   return (
     <a target="_blank" rel="noopener noreferrer" href={Links[props.icon]}>
       <svg
-        aria-labelledby="simpleicons-github-icon"
+        aria-labelledby="Icon"
         role="img"
         fill="white"
-        height="50px"
+        height="4rem"
         viewBox="0 0 24 24"
       >
         <path d={Icons[props.icon]} />
