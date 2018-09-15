@@ -1,6 +1,8 @@
-# Krokowski0x.com
+# krokowski0x.com
 
 This repo is meant to become my portfolio, with all my major projects, links and articles listed and presented in minimal, aesthetic fashion. It's also constant work in progress as I'd experiment here with different tools, frameworks and technologies, but I'd try my best to keep it up and running once its major parts will be complete.
+
+![Portfolio screenshot](utils/screenshot.png)
 
 ## Built with
 
