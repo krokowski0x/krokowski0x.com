@@ -20,24 +20,12 @@
   },
   "homepage": "https://github.com/krokowski0x/krokowski0x.com#readme",
   "devDependencies": {
-    "babel-eslint": "^8.2.5",
-    "eslint": "^5.0.1",
-    "eslint-config-airbnb": "^17.0.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.10.0",
-    "jest": "^23.2.0",
     "nodemon": "^1.17.5"
   },
   "dependencies": {
-    "@zeit/next-sass": "^0.2.0",
-    "css-loader": "^1.0.0",
     "express": "^4.16.3",
     "next": "^6.1.1",
-    "next-routes": "^1.4.2",
-    "node-sass": "^4.9.3",
     "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "simple-icons": "^1.8.8"
+    "react-dom": "^16.4.2"
   }
 }
