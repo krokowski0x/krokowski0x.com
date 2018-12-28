@@ -16,7 +16,8 @@ const Layout = props => {
           font-family: "Roboto", sans-serif;
           color: #fff;
           height: 100vh;
-          background: linear-gradient(45deg, #00d664, cyan);
+          background-size: 400% 400%;
+          background: linear-gradient(45deg, rgb(0, 214, 100), rgb(0, 255, 255));
         }
         h1 {
           font-size: 8rem;

@@ -1,9 +1,8 @@
-import Links from "../utils/Links";
 import Icons from "./Icons";
 
 const Link = props => {
   return (
-    <a target="_blank" rel="noopener noreferrer" href={Links[props.icon]}>
+    <a target="_blank" rel="noopener noreferrer" href={props.url}>
       <svg
         aria-labelledby="Icon"
         role="img"

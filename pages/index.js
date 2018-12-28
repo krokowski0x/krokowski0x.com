@@ -7,16 +7,13 @@ export default class App extends Component {
   constructor() {
     super();
     this.state = {
-      links: [
-        "GitHub",
-        "Gmail",
-        "LinkedIn",
-        "Instagram",
-        "Facebook",
-        "Twitter",
-        "Medium",
-        "Resume"
-      ]
+      links: {
+        GitHub: "https://github.com/krokowski0x",
+        LinkedIn: "https://www.linkedin.com/in/krokowski0x/",
+        Quora: "https://www.quora.com/profile/Rafa%C5%82-Kr%C3%B3kowski-1/answers",
+        Gmail: "mailto:krokowski.dx@gmail.com",
+        Resume: "https://github.com/krokowski0x/Resume"
+      },
     };
   }
 
@@ -29,8 +26,8 @@ export default class App extends Component {
           <br />
           Otherwise I'm just hopelessly scrolling through Stack Overflow.
         </h2>
-        {this.state.links.map(link => (
-          <Link icon={link} />
+        {Object.keys(this.state.links).map(link => (
+          <Link icon={link} url={this.state.links[link]} />
         ))}
       </Layout>
     );
