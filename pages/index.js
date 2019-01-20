@@ -11,6 +11,7 @@ export default class App extends Component {
         GitHub: "https://github.com/krokowski0x",
         LinkedIn: "https://www.linkedin.com/in/krokowski0x/",
         Quora: "https://www.quora.com/profile/Rafa%C5%82-Kr%C3%B3kowski-1/answers",
+        Medium: "https://medium.com/@krokowski.dx",
         Gmail: "mailto:krokowski.dx@gmail.com",
         Resume: "https://github.com/krokowski0x/Resume"
       },
