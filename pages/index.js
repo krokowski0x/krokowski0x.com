@@ -28,7 +28,7 @@ export default class App extends Component {
           Otherwise I'm just hopelessly scrolling through Stack Overflow.
         </h2>
         {Object.keys(this.state.links).map(link => (
-          <Link icon={link} url={this.state.links[link]} />
+          <Link icon={link} key={link} url={this.state.links[link]} />
         ))}
       </Layout>
     );
